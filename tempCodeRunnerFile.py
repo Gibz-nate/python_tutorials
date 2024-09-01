@@ -1,0 +1,1 @@
+dict1 = {'player1': 10, 'player2': 15}

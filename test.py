@@ -33,31 +33,32 @@ print(names_dict)'''
 # salary_splitter(wage)
 
 
-dict1 = {'player1': 10, 'player2': 15}
+# dict1 = {'player1': 10, 'player2': 15}
 
-for kv in dict1:
-    print(dict1[kv])
-
-
-
-def total():
-    unpurchased_items = []
-    receipt = {}
-    total = 0
-    for item in pinned_list:
-        if item not in items_purchased:
-            unpurchased_items.append(item)
-
-    for item in items_purchased:
-        receipt[item] = item_prices[item]
-
-    for value in receipt[item]:
-        total += value
-
-    return unpurchased_items, receipt, total        
+# for kv in dict1:
+#     print(dict1[kv])
 
 
 
+# def total():
+#     unpurchased_items = []
+#     receipt = {}
+#     total = 0
+#     for item in pinned_list:
+#         if item not in items_purchased:
+#             unpurchased_items.append(item)
 
+#     for item in items_purchased:
+#         receipt[item] = item_prices[item]
+
+#     for value in receipt[item]:
+#         total += value
+
+#     return unpurchased_items, receipt, total        
+
+fruits = {'apple','orange','banana','apple'}
+
+for fruit in fruits:
+    print(fruit)
 
 
