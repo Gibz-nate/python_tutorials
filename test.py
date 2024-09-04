@@ -56,9 +56,13 @@ print(names_dict)'''
 
 #     return unpurchased_items, receipt, total        
 
-fruits = {'apple','orange','banana','apple'}
+# fruits = {'apple','orange','banana','apple'}
 
-for fruit in fruits:
-    print(fruit)
+# for fruit in fruits:
+#     print(fruit)
 
+
+total = {1,4,3,2} -  {1,2,3}
+
+print(total)
 
