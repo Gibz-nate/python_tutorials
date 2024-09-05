@@ -1,0 +1,4 @@
+make coffee
+arrange drobe
+code app
+track sales

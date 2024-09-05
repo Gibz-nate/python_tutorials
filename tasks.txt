@@ -2,3 +2,5 @@ debug code
 create test cases
 complete apis
 make arrangements
+wash car
+setup nodes
