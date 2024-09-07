@@ -62,7 +62,24 @@ print(names_dict)'''
 #     print(fruit)
 
 
-total = {1,4,3,2} -  {1,2,3}
+# total = {1,4,3,2} -  {1,2,3}
 
-print(total)
+# print(total)
+
+
+# mdict = {'price':10, 'gold':120}
+
+
+# values = mdict.values()
+# for value in values:
+#     print(value)
+
+
+def purchase_item(price, gold_available):
+    if gold_available < price:
+        raise Exception(f"{gold_available:.2f} is not enough for {price:.2f}")
+    return gold_available - price
+
+
+print(purchase_item(10, 120))
 
