@@ -75,11 +75,15 @@ print(names_dict)'''
 #     print(value)
 
 
-def purchase_item(price, gold_available):
-    if gold_available < price:
-        raise Exception(f"{gold_available:.2f} is not enough for {price:.2f}")
-    return gold_available - price
+# def purchase_item(price, gold_available):
+#     if gold_available < price:
+#         raise Exception(f"{gold_available:.2f} is not enough for {price:.2f}")
+#     return gold_available - price
 
 
-print(purchase_item(10, 120))
+# print(purchase_item(10, 120))
+
+# triangle
+
+
 
