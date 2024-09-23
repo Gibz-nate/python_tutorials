@@ -1,3 +1,9 @@
 def join_strings(strings):
-    pass
+    jn = ""
+    for str in strings:
+        if jn != "":
+            jn += ","
+        jn += str
+    return jn
+        
         
