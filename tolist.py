@@ -6,6 +6,7 @@ def save(lst, filename):
             todo.write(f"{item}\n")
 
 
+
 def load(filename):
 
     try:
