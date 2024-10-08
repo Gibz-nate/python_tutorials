@@ -84,6 +84,9 @@ print(names_dict)'''
 # print(purchase_item(10, 120))
 
 # triangle
+number = 9
 
+for i in range(1, number):
+    print(i)
 
 
